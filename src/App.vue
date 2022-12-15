@@ -1,13 +1,15 @@
 <template>
     <div>
-        <h1 class="text-center text-primary">Vuex Tuto</h1>
+        <AllTodo></AllTodo>
     </div>
 </template>
 
 <script>
+import AllTodo from './components/AllTodo'
 export default {
     name: "App",
-    components: {},
+    components: {
+    AllTodo,},
 };
 </script>
 
